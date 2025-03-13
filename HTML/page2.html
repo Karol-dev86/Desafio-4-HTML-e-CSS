@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/Stlyle/style.css">
+    <link rel="stylesheet" href="/Stlyle/../form.css"
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="/Imagens/img/logo-ford-256.png" alt="Logo da Ford">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="page1.html">Lançamento</a>
+            <a class="cabecalho__menu__link" href="page2.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <div class="form-contener">
+            <img src="/Imagens/img/xls 2.2 diesel.jpg" alt="Ranger xls" class="form-img">
+
+            <form action="./index.html"  method="get">
+                <h2>Sobre Você</h2>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="e-mail">E-mail:</label>
+                <input type="email" id="e-mail" name="e-mail" required>
+
+                <label for="Contato">Tipo de Contato:</label>
+                <select id="Contato" name="Contato">
+                    <option value="elogio">Elogio</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="solicitacao">Solicitação</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+        </div>
+        
+    </main>
+    <footer class="rodape">
+        <div class="redes__sociais">
+            Redes Sociais
+            <a class="redes__sociais__links" href="http://facebook.com/ford"><img src="/Imagens/img/facebook-50.png" alt="Facebook da Ford"></a>
+            <a class="redes__sociais__links" href="http://youtube.com/ford"><img src="/Imagens/img/youtube-squared-50.png" alt="you tube da Ford"></a>
+            <a class="redes__sociais__links" href="http://instagram.com/Ford" alt="Intagram da Ford"><img src="/Imagens/img/instagram-logo-50.png"></a>
+            <img class="logo__rodape"  src="/Imagens/img/ford-96.png" alt="Logomarca da Ford">
+
+        </div>
+    </footer>
+    
+</body>
+</html>
