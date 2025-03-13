@@ -16,7 +16,7 @@
     text-decoration: none;
     color: blue;
     margin-right: 20px; 
-    transition: font-size: 0.3s ease;  
+    transition: 0.3s ease;  
 }
 
 a:hover {
