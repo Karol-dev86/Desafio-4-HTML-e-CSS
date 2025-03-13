@@ -1,0 +1,45 @@
+* {
+
+}
+
+.tabela-conteudo {
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+table img {
+    width: 300px;
+    height: auto;
+}
+
+table input {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao {
+   display: block; 
+   width: 200px;
+   padding: 10px;
+   margin: 20px auto;
+   background-color: blue;
+   color: white;
+   text-align: center;
+   cursor: pointer;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
